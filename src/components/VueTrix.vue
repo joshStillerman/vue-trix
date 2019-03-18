@@ -14,7 +14,7 @@
       type="hidden"
       :name="inputName"
       :id="inputId || generateId"
-      :value="editorContent"
+      v-model="editorContent"
     >
   </div>
 </template>
